@@ -1,0 +1,32 @@
+.parent {
+  border: 2px solid red;
+  height: 100vh;
+  /* puts elements in lign */
+  display: flex;
+  justify-content: center;
+  justify-content: end;
+  /* almost the same as end */
+  justify-content: flex-end;
+  /* space on the sides */
+  justify-content: space-around;
+  /* space only between the items */
+  justify-content: space-between;
+  /* even space */
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+.enfant {
+  width: 33.33%;
+  height: 150px;
+  border: solid 2px green;
+}
+.bgRed {
+  background: red;
+}
+.bgGreen {
+  background: green;
+}
+.bgBlue {
+  background: blue;
+}

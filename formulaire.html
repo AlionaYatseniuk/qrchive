@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/formulaire.css">
+    <title>Form</title>
+</head>
+<body>
+    <!-- method en poste ou en get = passe les informations dans l'url -->
+    <form method="post">
+      <!-- ici les champs de mon formulaire -->
+        <label for="nom">NOM</label><br>
+        <input type="text" id="nom" name="nom" required/><br>
+        <label for="email">EMAIL</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="mdp">NOM DE PASS</label><br>
+        <input type="password" id="mdp" name="mdp"><br>
+        <label for="avatar">VOTRE AVATAR</label><br>
+        <input type="file" id="avatar" name="avatar"><br>
+        <label for="pays">PAYS</label>
+        <select name="pays" id="pays">
+            <option value="France">FRANCE</option>
+            <option value="Italie">ITALY</option>
+            <option value="Germany">GERMANY</option>
+        </select>
+        <!-- check box -->
+        <p>
+        <input type="checkbox" name="fraise" id="fraise"> FRAISE
+        <input type="checkbox" name="poire" id="poire"> POIRE
+    </p>
+    <!-- RADIO -->
+   <p>
+       <input type="radio" name="civilite" value="m"> home
+       <input type="radio" name="civilite" value="f"> femme
+   </p>
+   <!-- zone de commentaires -->
+   <textarea 
+   name="msg" 
+   id="msg" 
+   cols="30" 
+   rows="10" 
+   placeholder="leave your comment here"
+   ></textarea> <br>
+   <!--  type hidden will not let the user see the ID that we have in data base -->
+   <input type="hidden" name="piege">
+   <!-- submit pour envoyer le for -->
+   <input type="sibmit" name="inscription" value="s'inscrire">
+    </form>
+  
+
+</body>
+</html>

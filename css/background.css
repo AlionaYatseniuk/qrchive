@@ -1,0 +1,22 @@
+body {
+  /* background-color: rgb(158, 148, 168); */
+  background: #5b18ce;
+  /* background: -moz-linear-gradient(-45deg, #5b18ce 0%, #c59237 100%); */
+  /* background: -webkit-linear-gradient(-45deg, #5b18ce 0%, #c59237 100%); */
+  background: linear-gradient(to right, #5b18ce 0%, #c59237 100%);
+  color: aliceblue;
+  min-height: 200vh;
+  background-image: url(/images/thebaypeak-n6sSLQ_gIVQ-unsplash.jpg);
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+}
+section {
+  width: 70%;
+  height: 500px;
+  margin: 150px auto;
+  background-image: url(/images/tengyart-YasArQs292k-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+}

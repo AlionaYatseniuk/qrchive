@@ -1,0 +1,52 @@
+/* reset */
+/* ------------------header----------------- */
+/* ------------------main------------------- */
+/* ------------------footer----------------- */
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  color: #8a2be2;
+  font-family: 'SmoochSans-Light', sans-serif;
+}
+h4 {
+  text-align: center;
+  font-family: 'Smooch Sans', sans-serif;
+}
+body {
+  /* we want the font Roboto but in crashes we want the seconf font */
+  /* this font we did not donload - we linked with Google*/
+  font-family: 'Roboto', sans-serif;
+}
+@font-face {
+  /*this font we downloaded  */
+  font-family: 'Smooch Sans';
+  src: url('/font/Smooch_Sans/SmoochSans-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: 'SmoochSans-Light';
+  src: url('/font/Smooch_Sans/static/SmoochSans-Light.ttf');
+}
+legend,
+summary,
+p {
+  color: blue;
+  font-weight: 300;
+}
+strong {
+  font-weight: 200;
+}
+.colorPurlple {
+  color: purple;
+}
+
+.enGras {
+  font-weight: 900;
+}
+#monTitre {
+  background-color: black;
+  color: aliceblue;
+  font-size: 3rem;
+  text-align: center;
+  border-radius: 2.5rem;
+}

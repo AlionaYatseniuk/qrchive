@@ -1,0 +1,41 @@
+.parent {
+  position: relative;
+  width: 200px;
+  height: 500px;
+  border: 2px red solid;
+  margin: 100px auto;
+}
+.enfant {
+  width: 100px;
+  height: 50px;
+  border: 1px solid green;
+}
+.bgRed {
+  position: absolute;
+  background: rgb(224, 127, 36);
+  top: -20px;
+  left: 150px;
+  z-index: 1;
+}
+.bgBlue {
+  position: absolute;
+  left: 150px;
+
+  background: rgb(67, 218, 238);
+}
+.bgGreen {
+  position: fixed;
+  /* left: 100px; */
+  top: 150px;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  background: green;
+}
+.bgYellow {
+  position: sticky;
+  left: 100px;
+  top: 150px;
+  z-index: 2;
+  background: rgb(181, 196, 47);
+}
